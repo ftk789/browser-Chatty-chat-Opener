@@ -17,6 +17,11 @@
 // @license      MIT
 // ==/UserScript==
 
+GM_registerMenuCommand("Open in Chatty", () => {
+ const myUrl = new URL(window.location.href);
+     parent.location='chatty:'+ myUrl.pathname;
+});
+
 let url = window.location.href;
 
 ['click','popstate', 'onload'].forEach( evt =>
