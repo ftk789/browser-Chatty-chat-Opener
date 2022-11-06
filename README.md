@@ -7,3 +7,4 @@ would be better to download the tampermonkey script from here : https://openuser
 to get updated automaticlly
 
 For In-Depth video : https://www.youtube.com/watch?v=ktjORjJVH-c&feature=youtu.be&ab_channel=ftk789
+This ONLY WORKS ON Windows as of now...
